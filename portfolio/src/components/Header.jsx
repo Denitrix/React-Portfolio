@@ -17,10 +17,7 @@ export default function Header() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div
-          className="collapse navbar-collapse d-flex justify-content-center"
-          id="navbarSupportedContent"
-        >
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <Navigation />
         </div>
       </div>
