@@ -8,17 +8,17 @@ export default function Navigation() {
           </a>
         </li>
         <li className="nav-item ms-auto me-auto">
-          <a className="nav-link" href="/">
+          <a className="nav-link" href="/portfolio">
             Portfolio
           </a>
         </li>
         <li className="nav-item ms-auto me-auto">
-          <a className="nav-link" href="/">
+          <a className="nav-link" href="/contact-me">
             Contact Me
           </a>
         </li>
         <li className="nav-item ms-auto me-auto">
-          <a className="nav-link" href="/">
+          <a className="nav-link" href="/resume">
             Resume
           </a>
         </li>

@@ -3,7 +3,7 @@ export default function Header() {
   return (
     <nav className="navbar navbar-expand-sm bg-body-tertiary">
       <div className="container-fluid">
-        <h1 className="navbar-brand" href="#">
+        <h1 className="navbar-brand fs-2" href="#">
           Alex Majorowicz
         </h1>
         <button
