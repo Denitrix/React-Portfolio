@@ -5,40 +5,50 @@ export default function Navigation() {
 
   return (
     <>
-      <ul className="navbar-nav mb-2 mb-sm-0 ms-auto me-auto">
-        <li className="nav-item ms-auto me-auto">
+      <ul className="navbar-nav mb-2 mb-sm-0 w-100 justify-content-evenly">
+        <li className="nav-item text-center">
           <a
-            className={currentPage === "/" ? "nav-link active" : "nav-link"}
+            className={
+              currentPage === "/"
+                ? "nav-link active bg-secondary rounded-3"
+                : "nav-link"
+            }
             aria-current="page"
             href="/"
           >
             About Me
           </a>
         </li>
-        <li className="nav-item ms-auto me-auto">
+        <li className="nav-item text-center">
           <a
             className={
-              currentPage === "/portfolio" ? "nav-link active" : "nav-link"
+              currentPage === "/portfolio"
+                ? "nav-link active bg-secondary rounded-3"
+                : "nav-link"
             }
             href="/portfolio"
           >
             Portfolio
           </a>
         </li>
-        <li className="nav-item ms-auto me-auto">
+        <li className="nav-item text-center">
           <a
             className={
-              currentPage === "/contact" ? "nav-link active" : "nav-link"
+              currentPage === "/contact"
+                ? "nav-link active bg-secondary rounded-3"
+                : "nav-link"
             }
             href="/contact"
           >
             Contact Me
           </a>
         </li>
-        <li className="nav-item ms-auto me-auto">
+        <li className="nav-item text-center">
           <a
             className={
-              currentPage === "/resume" ? "nav-link active" : "nav-link"
+              currentPage === "/resume"
+                ? "nav-link active bg-secondary rounded-3"
+                : "nav-link"
             }
             href="/resume"
           >
