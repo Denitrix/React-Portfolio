@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div className="container-fluid text-bg-primary">
+    <div className="container-fluid text-bg-primary pb-4">
       <h3 className="m-3 ms-3 fs-3">About Me</h3>
       <div className="container-fluid ms-2 me-2">
         <img src="https://placehold.co/100x150" />

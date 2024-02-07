@@ -2,7 +2,7 @@ import ContactForm from "../components/ContactForm";
 
 export default function Contact() {
   return (
-    <div className="text-bg-primary container-fluid">
+    <div className="text-bg-primary container-fluid pb-5">
       <h3 className="m-3 ms-3 fs-3">Contact Me</h3>
       <div className="container-fluid ms-2 me-2 justify-content-start">
         <p className="from-bottom delay-1">
