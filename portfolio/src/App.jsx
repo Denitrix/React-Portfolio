@@ -1,8 +1,8 @@
 // import "./App.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import AboutMe from "./pages/AboutMe";
-import ContactMe from "./pages/ContactMe";
+import About from "./pages/AboutPage";
+import Contact from "./pages/ContactPage";
 import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
 
@@ -14,8 +14,8 @@ function App() {
       <Header />
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<AboutMe />} />
-          <Route path="/contact-me" element={<ContactMe />} />
+          <Route path="/" element={<About />} />
+          <Route path="/contact-me" element={<Contact />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/resume" element={<Resume />} />
         </Routes>

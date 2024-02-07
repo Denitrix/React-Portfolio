@@ -4,7 +4,11 @@ export default function Project(props) {
   return (
     <div className="col-md-6 ms-auto me-auto my-1">
       <div className="card">
-        <img className="card-img" src={props.image} alt="Card image cap" />
+        <img
+          className="card-img"
+          src={props.image}
+          alt={`Screenshot of ${props.title}`}
+        />
         <div className="card-overlay rounded d-flex flex-end">
           <div className="card-body">
             <a

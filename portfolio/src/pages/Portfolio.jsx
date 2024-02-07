@@ -1,4 +1,4 @@
-import projects from "../assets/projects.json";
+import { projects } from "../assets/js/projects.js";
 import Project from "../components/Project";
 
 export default function Portfolio() {
