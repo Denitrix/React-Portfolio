@@ -52,7 +52,7 @@ export default function ContactForm() {
   };
 
   return (
-    <div className="container col-6">
+    <div className="container col-6 m-0">
       <form className="form" onSubmit={handleFormSubmit}>
         <div className="mb-3">
           <label for="name" className="form-label">
