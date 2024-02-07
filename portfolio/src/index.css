@@ -1,12 +1,19 @@
-/* :root {
+:root {
   --text: 0, 0, 0;
-  --nav-text: 0, 255, 0;
-  --background: 108, 117, 125;
-  --nav-background: 0, 255, 255;
+  --nav-text: 0, 0, 0;
+  --background: 0, 52, 89;
+  --nav-background: 168, 192, 220;
 
   --bs-primary-rgb: var(--background);
   --bs-tertiary-bg-rgb: var(--nav-background);
   --bs-emphasis-color-rgb: var(--nav-text);
   --bs-nav-link-color: var(--nav-text);
 }
- */
+
+.gitHub {
+  opacity: 0.5;
+}
+
+.gitHub:hover {
+  opacity: 1;
+}
