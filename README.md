@@ -1,6 +1,7 @@
 # Blank README
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Screen Shot](<portfolio/public/Screen Shot.png>)
 
 ## Table of Contents
 
