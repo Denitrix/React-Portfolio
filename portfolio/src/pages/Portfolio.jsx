@@ -1,7 +1,14 @@
+import projects from "../assets/projects.json";
+import Project from "../components/Project";
+
 export default function Portfolio() {
+  const projectCards = projects.map((project, index) => (
+    <Project {...project} key={index} />
+  ));
   return (
-    <>
-      <h1>Portfolio</h1>
-    </>
+    <div className="text-bg-primary container-fluid">
+      <h3 className="m-3 ms-3 fs-3">Portfolio</h3>
+      <div className="row container-fluid ms-2 me-2">{projectCards}</div>
+    </div>
   );
 }
