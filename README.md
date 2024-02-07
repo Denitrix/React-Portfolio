@@ -1,4 +1,35 @@
-# 20 React: React Portfolio
+# Blank README
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## Table of Contents
+
+- [Description](#description)
+- [Usage](#usage)
+- [Contributions](#contributions)
+- [Questions](#questions)
+
+## Description
+
+A portfolio with information about me, and links to my other projects.
+
+## Usage
+
+Go to `https://alex-majorowicz-portfolio.netlify.app/` to see my portfolio
+
+## License
+
+This application is covered under the MIT license.
+Please see here for more details (https://opensource.org/licenses/MIT)
+
+## Questions
+
+For any questions regarding this project, feel free to contact me through the following:
+
+- Email: alexmajors0613@gmail.com
+- GitHub: https://github.com/Denitrix
+
+<!-- # 20 React: React Portfolio
 
 ## Your Task
 
@@ -205,3 +236,4 @@ You are required to submit BOTH of the following for review:
 ---
 
 © 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+ -->

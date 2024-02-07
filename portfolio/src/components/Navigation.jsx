@@ -1,4 +1,4 @@
-import { useLocation } from "react-router-dom";
+import { useLocation, Link } from "react-router-dom";
 
 export default function Navigation() {
   const currentPage = useLocation().pathname;
@@ -7,53 +7,52 @@ export default function Navigation() {
     <>
       <ul className="navbar-nav mb-2 mb-sm-0 w-100 justify-content-evenly">
         <li className="nav-item text-center">
-          <a
+          <Link
             className={
               currentPage === "/"
                 ? "nav-link active bg-secondary rounded-3"
                 : "nav-link"
             }
-            aria-current="page"
-            href="/"
+            to="/"
           >
             About Me
-          </a>
+          </Link>
         </li>
         <li className="nav-item text-center">
-          <a
+          <Link
             className={
               currentPage === "/portfolio"
                 ? "nav-link active bg-secondary rounded-3"
                 : "nav-link"
             }
-            href="/portfolio"
+            to="/portfolio"
           >
             Portfolio
-          </a>
+          </Link>
         </li>
         <li className="nav-item text-center">
-          <a
+          <Link
             className={
               currentPage === "/contact"
                 ? "nav-link active bg-secondary rounded-3"
                 : "nav-link"
             }
-            href="/contact"
+            to="/contact"
           >
             Contact Me
-          </a>
+          </Link>
         </li>
         <li className="nav-item text-center">
-          <a
+          <Link
             className={
               currentPage === "/resume"
                 ? "nav-link active bg-secondary rounded-3"
                 : "nav-link"
             }
-            href="/resume"
+            to="/resume"
           >
             Resume
-          </a>
+          </Link>
         </li>
       </ul>
     </>

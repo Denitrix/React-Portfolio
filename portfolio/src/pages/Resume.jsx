@@ -1,4 +1,4 @@
-import resumePDF from "../assets/files/Simple-resume-template.pdf";
+import resumePDF from "../assets/files/Alex_Majorowcz_Resume.pdf";
 
 export default function Resume() {
   return (
