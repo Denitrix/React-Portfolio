@@ -7,7 +7,6 @@
 
 - [Description](#description)
 - [Usage](#usage)
-- [Contributions](#contributions)
 - [Questions](#questions)
 
 ## Description
@@ -16,7 +15,7 @@ A portfolio with information about me, and links to my other projects.
 
 ## Usage
 
-Go to `https://alex-majorowicz-portfolio.netlify.app/` to see my portfolio
+Go to [https://alex-majorowicz-portfolio.netlify.app/](https://alex-majorowicz-portfolio.netlify.app/) to see my portfolio
 
 ## License
 
