@@ -8,10 +8,10 @@ import "./index.css";
 
 import App from "./App.jsx";
 import ErrorPage from "./pages/ErrorPage.jsx";
-import About from "./pages/AboutPage";
-import Contact from "./pages/ContactPage";
-import Portfolio from "./pages/Portfolio";
-import Resume from "./pages/Resume";
+import About from "./pages/AboutPage.jsx";
+import Contact from "./pages/ContactPage.jsx";
+import Portfolio from "./pages/Portfolio.jsx";
+import Resume from "./pages/Resume.jsx";
 
 const router = createBrowserRouter([
   {

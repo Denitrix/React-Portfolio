@@ -1,5 +1,5 @@
 import { projects } from "../assets/js/projects.js";
-import Project from "../components/Project";
+import Project from "../components/Project.jsx";
 
 export default function Portfolio() {
   const projectCards = projects.map((project, index) => (
