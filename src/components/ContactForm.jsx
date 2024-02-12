@@ -39,10 +39,10 @@ export default function ContactForm() {
       // We want to exit out of this code block if something is wrong so that the user can correct it
       return;
       // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
-    } else if (message === "") {
-      setErrorMessage("Message is required");
     } else if (name === "") {
       setErrorMessage("Name is required");
+    } else if (message === "") {
+      setErrorMessage("Message is required");
     } else {
       alert(`Thank you for submitting your message.`);
       // If everything goes according to plan, we want to clear out the input after a successful registration.
